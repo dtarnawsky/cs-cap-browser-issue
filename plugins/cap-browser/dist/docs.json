@@ -1,0 +1,262 @@
+{
+  "api": {
+    "name": "CapBrowserPlugin",
+    "slug": "capbrowserplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "open",
+        "signature": "(options: OpenOptions) => Promise<any>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "OpenOptions"
+          }
+        ],
+        "returns": "Promise<any>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "OpenOptions"
+        ],
+        "slug": "open"
+      },
+      {
+        "name": "close",
+        "signature": "() => Promise<any>",
+        "parameters": [],
+        "returns": "Promise<any>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "close"
+      },
+      {
+        "name": "openWebView",
+        "signature": "(options: OpenWebViewOptions) => Promise<any>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "OpenWebViewOptions"
+          }
+        ],
+        "returns": "Promise<any>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "OpenWebViewOptions"
+        ],
+        "slug": "openwebview"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "OpenOptions",
+      "slug": "openoptions",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "url",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "headers",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [
+            "Headers"
+          ],
+          "type": "Headers"
+        },
+        {
+          "name": "isPresentAfterPageLoad",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "boolean | undefined"
+        },
+        {
+          "name": "hideActivityBtn",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "boolean | undefined"
+        },
+        {
+          "name": "clearHistoryOnLoad",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "boolean | undefined"
+        }
+      ]
+    },
+    {
+      "name": "Headers",
+      "slug": "headers",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": []
+    },
+    {
+      "name": "OpenWebViewOptions",
+      "slug": "openwebviewoptions",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "url",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "headers",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [
+            "Headers"
+          ],
+          "type": "Headers"
+        },
+        {
+          "name": "shareDisclaimer",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [
+            "DisclaimerOptions"
+          ],
+          "type": "DisclaimerOptions"
+        },
+        {
+          "name": "toolbarType",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [
+            "ToolBarType"
+          ],
+          "type": "ToolBarType"
+        },
+        {
+          "name": "shareSubject",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        },
+        {
+          "name": "title",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        },
+        {
+          "name": "isPresentAfterPageLoad",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "boolean | undefined"
+        },
+        {
+          "name": "hideNavBar",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "boolean | undefined"
+        },
+        {
+          "name": "presentFullScreen",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "boolean | undefined"
+        }
+      ]
+    },
+    {
+      "name": "DisclaimerOptions",
+      "slug": "disclaimeroptions",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "title",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "message",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "confirmBtn",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "cancelBtn",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "enums": [
+    {
+      "name": "ToolBarType",
+      "slug": "toolbartype",
+      "members": [
+        {
+          "name": "ACTIVITY",
+          "value": "\"activity\"",
+          "tags": [],
+          "docs": ""
+        },
+        {
+          "name": "NAVIGATION",
+          "value": "\"navigation\"",
+          "tags": [],
+          "docs": ""
+        },
+        {
+          "name": "BLANK",
+          "value": "\"blank\"",
+          "tags": [],
+          "docs": ""
+        },
+        {
+          "name": "DEFAULT",
+          "value": "\"\"",
+          "tags": [],
+          "docs": ""
+        }
+      ]
+    }
+  ],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
