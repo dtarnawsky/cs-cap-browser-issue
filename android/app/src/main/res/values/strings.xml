@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">cs-cap-browser-issue</string>
+    <string name="title_activity_main">cs-cap-browser-issue</string>
+    <string name="package_name">cs.cap.browser.issue</string>
+    <string name="custom_url_scheme">cs.cap.browser.issue</string>
+</resources>

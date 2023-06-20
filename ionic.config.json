@@ -1,0 +1,7 @@
+{
+  "name": "cs-cap-browser-issue",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
